@@ -14,7 +14,6 @@ var manuaKea = L.marker([19.817880, -155.472562]).addTo(map);
 var pearlHarbor = L.marker([21.351481587644983, -157.98023612520393]).addTo(map);
 var redHill = L.marker([21.37196998359149, -157.90527780000002]).addTo(map);
 var waimeaRiver = L.marker([21.641493499031373, -158.06303495150456]).addTo(map);
-var zuckerBergHouse = L.marker([22.206916971483928, -159.3645944156805]).addTo(map);
 var sidebar = L.control.sidebar('sidebar', {
     position: 'left'
 });
@@ -23,13 +22,7 @@ map.addControl(sidebar);
 
 let manuaKeaHtml = `
 <h1> The Violation of Manua Kea </h1>
-Mauna Kea, the site of one the largest astronomical observatory, is the site of a sacred landscape. Representative of an umbilical cord, tying the Hawaiian island chain to the heavens, the site itself is seen as the progenesis of the Hawaiian people. The site is a spiritually important land.
-“... the sacred summit remains a wao akua, of Wākea (“Sky Father” to all Hawaiians) and the piko (umbilical cord) of the island-child, Hawaii, connecting the land to the heavens on the the highest point in the Pacific.” ( Kahea Hawaiian Environmental Alliance). In 1968, a United States owned Land Board permitted the construction of an observatory on Mauna Kea. Despite countless protests and resistance by the native people, construction continued. From 1968 to 2002, countless telescopes, many of which remain unused to this day, were constructed – several of them lacking permits or approval from the Land Board. 
-
-Despite protests and continued protests, several narratives and optics have been used by non-native Hawaiins to justify the construction of these projects on sacred sites. Institutions of power in Hawaii owned by the American government acknowledge the struggles and protests of these people for sovereignty of their own sacred land, they persist either way out of a ‘greater good’. This sentiment of a ‘greater good’ has been used as a narrative to continue to push and shoot down the interests of Native people. In the media, a narrative was constructed that the Hawaiins opposing the construction of and development of these projects on Native-Land was that of opposing progress, not the protection of their own tradition.
-
-This sentiment is reflective of a settler-colonizer mindset, viewing the protection of peoples lands as outdated. The wants of the settler-colonizer comes first, seen and presented as needs. It views its own progress as fundamental and paramount to the furtherment of society, viewing the cost it comes to the natives as a by-product of expansion. intimately aware of the risk many of these projects bring to the Native people, they continue. Oppression and destruction of people, exploiting them for gain is still present. They are still colonizers practicing colonialism. 
-
+Mauna Kea, the site of one the largest astronomical observatory, is the site of a sacred landscape. Representative of an umbilical cord, tying the Hawaiian island chain to the heavens, the site itself is seen as the progenesis of the Hawaiian people. The site is a spiritually important land. “... the sacred summit remains a wao akua, of Wākea (“Sky Father” to all Hawaiians) and the piko (umbilical cord) of the island-child, Hawaii, connecting the land to the heavens on the highest point in the Pacific.” ( Kahea Hawaiian Environmental Alliance). In 1968, a United States-owned Land Board permitted the construction of an observatory on Mauna Kea. Despite countless protests and resistance by the native people, construction continued. From 1968 to 2002, countless telescopes, many of which remain unused to this day, were constructed – several of them lacking permits or approval from the Land Board. Despite protests and continued protests, several narratives and optics have been used by non-native Hawaiians to justify the construction of these projects on sacred sites. Institutions of power in Hawaii owned by the American government acknowledge the struggles and protests of these people for the sovereignty of their own sacred land, they persist either way out of a ‘greater good’. This sentiment of a ‘greater good’ has been used as a narrative to continue to push and shoot down the interests of Native people. In the media, a narrative was constructed that the Hawaiins opposing the construction of and development of these projects on Native Land were opposing progress, not the protection of their own tradition. This sentiment is reflective of a settler-colonizer mindset, viewing the protection of people's lands as outdated. The wants of the settler-colonizer come first, seen and presented as needs. It views its own progress as fundamental and paramount to the furtherment of society, viewing the cost it comes to the natives as a by-product of expansion. intimately aware of the risk many of these projects bring to the Native people, they continue. Oppression and destruction of people, exploiting them for gain is still present. They are still colonizers practicing colonialism. 
 <h3> Sources and Recommended Readings </h3>
 <ul>
 <li>Mauna Kea Protests Are Part of a Long Fight Against Colonialism</li>
@@ -59,7 +52,21 @@ Like many other events in the history of Hawaii, including contemporary, the gov
 
 let redHillHtml = `
 <h1>The Fight for Clean Water</h1>
+Redhill is another by-product of the illegal occupation of Hawaii. In 1942 a fuel storage facility was built upon the location of Redhill during World War II. Throughout the years, the fuel storage at this facility was slowly leaking into the aquifer.
+In January 2014, roughly 27,000 gallons of jet fuel leaked from the storage facility, resulting in contamination of nearby soil and surface-level water.
+A second contamination incident occurred in May of 2021, where petroleum stored in Red Hill had leaked inside of the base, collecting within the fire suppression system as a reservoir.
+In November of 2021, the fuel which was stored in the drain line of the fire suppression system leaked into the nearby aquifer, resulting in the contamination of the aquifer used for drinking water.
+
+This incident is just one of several incidents where purposeful negligence was at play. Several private reports before the leakage in 2021 had suggested that the Redhill Storage Reservoir was prone to such an accident. Despite this, the U.S. Navy refused to address the issue until the leaks.
+
+<h3> Sources and Recommended Readings </h3>
+<ul>
+<li> <a href="https://www.civilbeat.org/2022/02/red-hills-firefighting-system-was-damaged-long-before-contamination-crisis"/</a>Red Hill’s Firefighting System Was Damaged Long Before Contamination Crisis </li>
+<li> <a href="https://www.civilbeat.org/2022/06/red-hill-investigations-the-navy-failed-to-prevent-and-respond-to-fuel-contamination/">Red Hill Investigations: The Navy Failed To Prevent And Respond To Fuel Contamination </a> </li>
+</ul> 
+
 `
+
 
 let waimeaRiverHtml = `        <h1>Waimea River: James Cook Landing Site</h1>
 
