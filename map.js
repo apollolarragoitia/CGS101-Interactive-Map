@@ -104,6 +104,11 @@ waimeaRiver.on('click', function () {
     sidebar.show();
 });
 
+redHill.on('click', function () {
+    sidebar.setContent(redHillHtml);
+    sidebar.show();
+});
+
 setTimeout(function () {
     sidebar.show();
 }, 500); 
