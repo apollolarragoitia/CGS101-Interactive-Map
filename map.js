@@ -99,4 +99,4 @@ waimeaRiver.on('click', function () {
 
 setTimeout(function () {
     sidebar.show();
-}, 500);
+}, 500); 
